@@ -1,0 +1,30 @@
+.about{
+    min-height: 100vh;
+    display: flex;
+
+}
+.about h1{
+    display: inline;
+    margin: 10% 5%;
+    font-size: 7rem;
+    font-weight: 400;
+}
+.about img{
+    width: 600px;
+    height: 600px;
+    border-radius: 10px;
+    margin-right: 5%;
+    margin-top: 10%;
+}
+.about p{
+    color: #fff;
+    font-size: 1.3rem;
+    padding: 4%;
+    margin:7% 3%;
+}
+.about h3{
+    margin: 2% 0;
+}
+.about h3:hover{
+    text-decoration: underline;
+}

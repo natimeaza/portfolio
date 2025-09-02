@@ -1,0 +1,110 @@
+.contact{
+    min-height: 100vh;
+    display:flex;
+    flex-direction: column;
+}
+.contact h1{
+    color: aliceblue;
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 2%;
+}
+.title{
+    margin: 1% 30%;
+    word-break: break-all;
+    color: aliceblue;
+}
+.display{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    gap: 10%;
+    color:#e7e5e5 ;
+}
+.adress{
+    flex: 1;
+    margin: 0 10%;
+    padding-right: 7%;   
+}
+.adress p{
+    text-align: center;
+    word-wrap: break-word;
+    color: #fff;
+}
+.adress h1{
+    font-size: 3rem;
+    color: yellow;
+}
+.adress .social{
+    text-align: start;
+    margin: 5% 7%;
+}
+.inputArea{
+    flex: 1;
+    margin-right: 10%;
+    margin-left: -10%;
+    border-radius: 20px;
+    position: relative;
+}
+.inputArea h1,.inputArea input,.inputArea textarea{
+    display: flex;
+    flex-direction: column;
+
+}
+.inputArea h1{
+    font-size: 3rem;
+}
+
+.inputArea input,textarea{
+    border: none;              
+    border-bottom: 1px solid #333; 
+    outline: none;             
+    padding: 8px 0; 
+    margin: 2% 10%;           
+    width: 80%;             
+    font-size: 18px;
+    background-color: #101820;
+    color: #fff;
+}
+.inputArea p{
+    width: 450px;
+    text-align: center;
+    word-wrap: break-word;
+    color: #fff;
+    margin: 7% 17%; 
+    
+}
+.inputArea .btn{
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: 20px;   
+    right: 40px;   
+    color: orangered;
+    background-color: transparent;
+}
+.inputArea button:hover{
+    background-color: orangered;
+    color: #fff;
+}
+.social{
+    display: flex;
+   margin: 0 10%;
+}
+.social h2{
+    margin: 10px 0;
+    text-align: center;
+     color: yellow;
+}
+.social img{
+    width: 40px;
+    height: 40px;
+    margin: 5px 10px 0px ;
+    border-radius: 50%;
+    border: transparent;
+}
+
+

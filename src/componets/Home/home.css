@@ -1,0 +1,29 @@
+
+.home{
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4%;
+   
+}
+
+.home h1{
+    font-size: 5rem;    
+    font-family: "Rajdhani";
+    font-weight: 300;
+   color:rgb(231, 229, 229);
+    
+}
+.home p{
+    font-size: 1.5rem;
+    padding: 10%;
+    margin-left: 10%;
+    margin-top: 50px;
+}
+.imageCard img{
+    width: 470px;
+    height: 650px;
+    margin: 20% 30%;
+    border-radius: 40px;
+    box-shadow: 1px 3px 10px #666;
+}

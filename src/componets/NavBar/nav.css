@@ -1,0 +1,47 @@
+
+nav{
+    position: fixed;
+    top: 0;
+    padding: 30px;
+    width: 100%;
+    border-bottom: solid 1px #66666620;
+   
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;   
+    margin: 0 27%;
+    padding: 10px;
+    border-radius: 20px;
+
+
+    
+}
+
+.container img{
+    width: 40px;
+    position: absolute;
+    right: 10%;
+    cursor: pointer;
+}
+
+.container a {
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 40px;
+    cursor: pointer;
+    position: static;
+    border: 1px solid transparent; 
+    border-radius: 20px;
+    box-sizing: border-box; 
+    transition: all 0.3s ease; 
+}
+
+.container a:hover {
+    font-weight: 700;  
+  text-decoration: underline;  
+}
